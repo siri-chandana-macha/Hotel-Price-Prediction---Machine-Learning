@@ -21,7 +21,7 @@ Developing a machine learning model to predict hotel prices based on factors suc
 ## Data Pipeline - Microsoft Azure
 ![image](https://github.com/user-attachments/assets/57fadb70-c389-47fb-8ffb-f4279fb04a7a)
 
-- **Hotel_Data**: This is the starting point, representing the input dataset that contains hotel-related information from .
+- **Hotel_Data**: This is the starting point, representing the input dataset that contains hotel-related information from scrapped_HotelsDataset.csv.
 
 - **Clean Missing Data (clean_missing_data1)**: This step involves handling any missing values in the dataset. Cleaning missing data is crucial for ensuring that the model can be trained effectively without any gaps in the information.
 
