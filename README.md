@@ -23,19 +23,19 @@ Developing a machine learning model to predict hotel prices based on factors suc
 
 - **Hotel_Data**: This is the starting point, representing the input dataset that contains hotel-related information from scrapped_HotelsDataset.csv.
 
-- **Clean Missing Data (clean_missing_data1)**: This step involves handling any missing values in the dataset. Cleaning missing data is crucial for ensuring that the model can be trained effectively without any gaps in the information.
+- **Clean Missing Data (clean_missing_data1)**: In the Hotel Rating column, the entire row which contains missing values is removed from the dataset. This ensures that only complete cases are used in subsequent analysis steps.
 
-- **Summarize Data (summarize_data)**: In this step, the data is summarized to understand its characteristics, such as mean, median, mode, and other descriptive statistics. This helps in gaining insights into the dataset before further processing.
+- **Summarize Data (summarize_data)**:The data is summarized to understand its characteristics, such as mean, median, mode, and other descriptive statistics. This helps in gaining insights into the dataset before further processing.
 
-- **Clean Missing Data (clean_missing_data_2)**: Another round of missing data handling, possibly focusing on different aspects of the dataset or after summarization, ensuring that the data is as complete and accurate as possible.
+- **Clean Missing Data (clean_missing_data_2)**: In the column Review Rating  null values  are replaced by the median of the column.
 
-- **Split Data (split_data)**: This step splits the dataset into two parts: 70% for training the model and 30% for testing it. This is important to validate the model's performance on unseen data.
+- **Split Data (split_data)**: splits the dataset into two parts: 70% for training the model and 30% for testing it. This is important to validate the model's performance on unseen data.
 
-- **Poisson Regression (poisson_regression)**: This step sets up the model to be used for analysis. Poisson regression is suitable for modeling count data and is often used in scenarios like predicting the number of bookings or events.
+- **Poisson Regression (poisson_regression)**: sets up the model to be used for analysis. Poisson regression is suitable for modeling count data and is often used in scenarios like predicting the number of bookings or events.
 
 - **Train Model (train_model)**: The model is trained using the training dataset. This step involves adjusting the model parameters to minimize error and improve predictions.
 
-- **Select Columns in Dataset (select_columns_in_dataset)**: This step involves selecting specific features or columns from the dataset that are relevant for model training. It helps in focusing the model on important data points.
+- **Select Columns in Dataset (select_columns_in_dataset)**: It involves selecting specific features or columns from the dataset that are relevant for model training. It helps in focusing the model on important data points.
 
 - **Score Model (score_model)**: After training, the model is evaluated on the test dataset to score its performance. This typically involves calculating metrics like accuracy, precision, recall, etc.
 
