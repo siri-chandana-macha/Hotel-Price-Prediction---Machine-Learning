@@ -46,7 +46,7 @@ Developing a machine learning model to predict hotel prices based on factors suc
 ## Features found to have an impact on the target variable 
 ![feature](https://github.com/user-attachments/assets/b172af4e-c828-4848-b6e3-360fe308e1ab)
 
-- **Selected Features**: Retained columns up to "Review Rating" with significant correlations.
+- **Selected Features**: Retained columns up to **"Review Rating"** with significant correlations.
   
 - **Correlations** :Price, Hotel Rating, Pool, Hotel bar, Spa, Restaurant, Parking, Free WiFi , A/C, Review Rating.
   
@@ -73,12 +73,12 @@ Developing a machine learning model to predict hotel prices based on factors suc
 ## Inference and Model Deployment - Postman
 
 The JSON input sent via Postman includes details of the Hotel name, hotel rating (3.0), review rating 
-(7.1), and available amenities (WiFi, restaurant, etc.). The specified price for this hotel is 4479.
+(7.1), and available amenities (WiFi, restaurant, etc.). The specified price for this hotel is **4479**.
 
   ![postman input](https://github.com/user-attachments/assets/020bd615-d1d5-46b2-9ad1-a2a67902101f)
 <br><br>
 The JSON output received from the REST API contains the same hotel details and amenities, with an 
-additional "Scored Labels" field showing the model-predicted price (4473.08), providing a comparison 
+additional "Scored Labels" field showing the model-predicted price **4473.08**, providing a comparison 
 to the actual price.
 ![postman result](https://github.com/user-attachments/assets/362fd98e-163c-475c-920f-019b3eb3eff2)
 
