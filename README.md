@@ -1,7 +1,7 @@
 # HotelPricePrediction Using Machine Learning
 Developing a machine learning model to predict hotel prices based on factors such as star rating, review rating, and amenities offered by the hotel. By collecting and analyzing data from https://www.trivago.com/, the model will explore the relationships and correlations among these factors to accurately forecast hotel room prices.
 
-![image](https://github.com/user-attachments/assets/767e560c-0088-4e22-98bc-86a9b0e12db7)
+<img src="https://github.com/user-attachments/assets/767e560c-0088-4e22-98bc-86a9b0e12db7" alt="image" width="500" />
 
 
 ![image](https://github.com/user-attachments/assets/b9a61cca-5a5a-4665-bc36-d2aef9a58b5f)
